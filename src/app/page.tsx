@@ -1,4 +1,6 @@
 import Hero from "@/components/home/hero";
+import HowItWorks from "@/components/home/how-it-works";
+import Trials from "@/components/home/trials/trials";
 
 export default function Home() {
   return (
@@ -6,8 +8,10 @@ export default function Home() {
       <header>
 
       </header>
-      <main className="flex min-h-screen w-full">
+      <main className="min-h-screen w-full">
         <Hero />
+        <HowItWorks />
+        <Trials />
       </main>
     </div>
   );

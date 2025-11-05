@@ -6,7 +6,7 @@ import Header from "@/components/static/header";
 const poppins = Poppins({
   variable: "--font-poppins",
     subsets: ["latin"],
-    weight: "100"
+    weight: "300"
 });
 
 const bebasNeue = Bebas_Neue({
