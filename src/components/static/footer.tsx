@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <div
       className="min-h-[280px] overflow-hidden m-0 lg:h-[200px] flex flex-col justify-center items-center w-full bg-cover bg-no-repeat"
-      style={{ backgroundImage: `url('/navigation/footer-bg.png')` }}
+      style={{ backgroundImage: `url('/home/home-bg.png')` }}
     >
       <div className="h-full max-w-[1300px] w-full py-4 mx-auto flex lg:flex-row flex-col justify-center items-center">
         <div className="relative lg:py-0 py-4 lg:w-[25%] w-full h-full flex flex-col items-start justify-center px-4  border-black border-r-1">

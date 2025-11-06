@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 
 const Hero = () => {
   return (
-    <div className="w-full py-6 flex flex-col items-center">
+    <div className="w-full py-6 flex flex-col items-center bg-center"  style={{backgroundImage: "url('/home/home-bg.png')"}}>
       <h1 className="text-8xl text-primary">Your Talent Deserves a Stage</h1>
       <div
         className="min-h-[500px] w-full flex flex-col justify-end bg-top"
