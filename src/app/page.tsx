@@ -2,6 +2,8 @@ import Cta from "@/components/home/cta";
 import Hero from "@/components/home/hero";
 import HowItWorks from "@/components/home/how-it-works";
 import PackagesCarousel from "@/components/home/packages/packages-carousel";
+import { Sponsers } from "@/components/home/sponsers";
+import { SuccessStories } from "@/components/home/success-stories";
 import Trials from "@/components/home/trials/trials";
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
         <Trials />
         <Cta />
         <PackagesCarousel />
+        <SuccessStories />
+        <Sponsers />
       </main>
     </div>
   );

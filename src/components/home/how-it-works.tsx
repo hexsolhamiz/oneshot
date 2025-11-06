@@ -5,7 +5,7 @@ const HowItWorks = () => {
   return (
     <div className="w-full max-h-[400px] max-w-7xl mx-auto py-24 flex justify-center lg:justify-start items-center">
       <div className="w-full">
-        <h1 className="text-4xl  text-primary ">
+        <h1 className="text-4xl text-primary ">
           Register and pay in under 3 minutes
         </h1>
         <p className="text-black font-normal text-start ">
