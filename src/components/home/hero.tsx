@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "../ui/button";
 
 const Hero = () => {
@@ -16,10 +15,10 @@ const Hero = () => {
           <h1 className="text-5xl text-black">
             Two Day Football Trials Across The UK
           </h1>
-          <p className="font-bold text-black text-xl">Show your skills. Get seen by scouts</p>
+          <p className="font-normal text-black text-xl">Show your skills. Get seen by scouts</p>
           <div className="flex items-center py-4 font-bold justify-center gap-x-4">
-           <Button className="rounded-full text-white font-bold hover:cursor-pointer">Register Now</Button>
-           <Button variant="outline" className="border-primary hover:cursor-pointer rounded-full text-primary font-bold bg-transparent">See Events</Button>
+           <Button className="rounded-full text-white font-normal hover:cursor-pointer">Register Now</Button>
+           <Button variant="outline" className="border-primary hover:cursor-pointer rounded-full text-primary font-normal bg-transparent">See Events</Button>
           </div>
         </div>
       </div>

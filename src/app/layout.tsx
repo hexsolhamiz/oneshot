@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Poppins, Bebas_Neue } from "next/font/google";
 import Header from "@/components/static/header";
+import { Footer } from "@/components/static/footer";
+import { Footnote } from "@/components/static/footnote";
 
 const poppins = Poppins({
   variable: "--font-poppins",
     subsets: ["latin"],
-    weight: "300"
+    weight: ["100","200","300","400","500","600","700","800","900"],
 });
 
 const bebasNeue = Bebas_Neue({
@@ -31,6 +33,8 @@ export default function RootLayout({
       <body className={`antialiased ${poppins.variable} ${bebasNeue.variable}`}>
         <Header />
         {children}
+        <Footer />
+        <Footnote />
       </body>
     </html>
   );

@@ -6,7 +6,7 @@ const Trials = () => {
   return (
     <div className="min-h-[600px] max-w-7xl w-full mx-auto flex flex-col justify-center">
       <h1 className="text-primary text-4xl text-center">Find a Trial Near You</h1>
-      <p className="text-black font-bold text-center">
+      <p className="text-black font-normal text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         faucibus lobortis nisi vitae venenatis. Donec convallis velit a
         dignissim molestie. Nam gravida hendrerit dolor nec faucibus. Vivamus
