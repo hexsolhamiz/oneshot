@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { InputSearch } from "./input-search";
 import { cities } from "@/data/cities";
 import TrialCard from "../home/trials/trials-card";
