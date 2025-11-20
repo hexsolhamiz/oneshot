@@ -8,5 +8,5 @@ export const navigationLinks = [
   { name: "Contact", href: "/contact-us" },
   { name: "Success", href: "/success-stories" },
   { name: "Blogs", href: "/blogs" },
-  { name: "Sponsers", href: "/sponsors" },
+  { name: "Sponsors", href: "/sponsors" },
 ];

@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import { Input } from "@/components/ui/input";
 import Link from "next/link";
+import { footerLinks } from "@/data/links";
+
 
 export const Footer = () => {
   return (
@@ -12,14 +14,13 @@ export const Footer = () => {
     >
       <div className="h-full max-w-[1300px] w-full py-4 mx-auto flex lg:flex-row flex-col justify-center items-center">
         <div className="relative lg:py-0 py-4 lg:w-[25%] w-full h-full flex flex-col items-start justify-center px-4  border-black border-r-1">
-       
-       <Image
-          src="/logos/footer-logo.png"
-          alt=""
-          width={200}
-          height={200}
-          className="bg-contain"
-        />
+          <Image
+            src="/logos/footer-logo.png"
+            alt=""
+            width={200}
+            height={200}
+            className="bg-contain"
+          />
           <h2 className="mt-2 font-extrabold text-black">
             Your Talent. Your Stage.{" "}
           </h2>
@@ -36,28 +37,15 @@ export const Footer = () => {
         <div className="lg:w-[15%] h-full w-full flex flex-col items-start justify-start px-4 pb-2 border-black border-r">
           <h2 className="font-bold text-black ">Quick Links</h2>
           <ul className="text-secondary">
-            <Link href="/">
-              <li className="py-1 hover:cursor-pointer text-black">Home</li>
-            </Link>
-            <Link href="/about">
-              <li className="py-1 hover:cursor-pointer text-black">About Us</li>
-            </Link>
-            <Link href="/services/core-services">
-              <li className="py-1 hover:cursor-pointer text-black">Cities</li>
-            </Link>
-            <Link href="#search">
-              <li className="py-1 hover:cursor-pointer text-black">
-                Add Ons
-              </li>
-            </Link>
-            <Link href="/pricing/see-all-pricing">
-              <li className="py-1 hover:cursor-pointer text-black">Success</li>
-            </Link>
-            <Link href="/contact-us">
-              <li className="py-1 hover:cursor-pointer text-black">
-                Blogs
-              </li>
-            </Link>
+            {
+              footerLinks.map((link,index)=> {
+                return (
+                  <Link key={index} href={link.href}>
+                  <li className="py-1 hover:cursor-pointer hover:text-primary text-black">{link.link}</li>
+                  </Link>
+                )
+              })
+            }
           </ul>
         </div>
         <div className="lg:w-[15%] h-full w-full flex flex-col items-start justify-start px-4  border-black border-r">
@@ -123,7 +111,6 @@ export const Footer = () => {
           <p className="text-seconadary font-light py-4">
             Join our mailing list for exclusive offers and updates.
           </p>
-
           <div className="flex items-center border border-black rounded-full overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <form className="flex w-full items-center">
               <Input

@@ -29,7 +29,7 @@ export const Story = () => {
                 rutrum mattis massa vel sagittis. Duis placerat neque libero, ut
                 rutrum sem posuere sed. Aliquam faucibus nibh vel porta auctor.
               </p>
-              <p className="font-normal text-center text-black text-smpy-4">
+              <p className="font-normal text-center text-black text-sm py-4">
                 Maecenas dolor ipsum, varius vitae leo ut, ullamcorper finibus
                 erat. Praesent rutrum lacus vel lectus efficitur consectetur.
                 Etiam et odio at eros feugiat vehicula eu in erat. Etiam iaculis
