@@ -3,9 +3,6 @@ import { Footnote } from "@/components/static/footnote";
 import Header from "@/components/static/header";
 
 
-
-
-
 export default function StaticLayout({
   children,
 }: Readonly<{
@@ -20,6 +17,6 @@ export default function StaticLayout({
         <Footnote />
       </body>
     </html>
-  
+
 );
 }

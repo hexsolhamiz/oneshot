@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { Button } from "../ui/button";
-import links from "@/data/links";
+import { links } from "@/data/links";
 import Link from "next/link";
 import Image from "next/image";
 
