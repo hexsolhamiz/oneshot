@@ -108,7 +108,7 @@ const RegisterForm = () => {
     position: user?.user.playerProfile.position || "Midfielder",
   }), [user, data])
 
-
+// new state
 
   const [loading, setLoading] = useState(false)
   const handlePaymentSubmit = async () => {
